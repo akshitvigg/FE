@@ -1,7 +1,15 @@
 import "./App.css";
 
 function App() {
-  return <>jfdk</>;
+  return (
+    <div className=" h-screen text-white flex">
+      <div className=" w-[380px] bg-[#181818]">dss</div>
+      <div className=" w-full text-xl bg-[#212121]">
+        <div></div>
+      </div>
+      ;
+    </div>
+  );
 }
 
 export default App;
