@@ -1,12 +1,14 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [slideTrue, setSlideNotTrue] = useState(false);
   return (
     <div className=" h-screen text-white flex">
-      <div className="  w-[380px] bg-[#181818]">
+      <div className={` ${slideTrue ? "w-0" : "w-[380px]"}  bg-[#181818]`}>
         <button>slide</button>
       </div>
-      <div className=" w-full text-xl bg-[#212121]">
+      <div className={` w-full text-xl bg-[#212121]`}>
         <div></div>
       </div>
       ;
