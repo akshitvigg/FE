@@ -5,11 +5,22 @@ function App() {
   const [slideTrue, setSlideNotTrue] = useState(false);
   return (
     <div className=" h-screen text-white flex">
-      <div className={` ${slideTrue ? "w-0" : "w-[380px]"}  bg-[#181818]`}>
-        <button>slide</button>
-      </div>
+      <div
+        className={` ${
+          slideTrue ? "w-0" : "w-[380px]"
+        } transition-all duration-700 ease-in-out  bg-[#181818]`}
+      ></div>
       <div className={` w-full text-xl bg-[#212121]`}>
-        <div></div>
+        <div>
+          {" "}
+          <button
+            onClick={() => {
+              setSlideNotTrue(!slideTrue);
+            }}
+          >
+            slide
+          </button>
+        </div>
       </div>
       ;
     </div>
