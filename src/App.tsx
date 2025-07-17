@@ -7,16 +7,17 @@ function App() {
     <div className=" h-screen text-white flex">
       <div
         className={` ${
-          slideTrue ? "w-0" : "w-[380px]"
+          slideTrue ? "w-10" : "w-[380px]"
         } transition-all duration-700 ease-in-out  bg-[#181818]`}
       >
         <div className=" flex justify-end ">
           <button
+            className=" mr-6 mt-2"
             onClick={() => {
               setSlideNotTrue(!slideTrue);
             }}
           >
-            slide
+            ☰
           </button>
         </div>
       </div>
