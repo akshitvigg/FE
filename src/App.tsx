@@ -12,7 +12,7 @@ function App() {
       >
         <div className=" flex justify-end ">
           <button
-            className=" mr-6 mt-2"
+            className=" mr-4 mt-2"
             onClick={() => {
               setSlideNotTrue(!slideTrue);
             }}
