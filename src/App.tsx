@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [slideTrue, setSlideNotTrue] = useState(false);
   return (
-    <div className=" h-screen text-white flex">
+    <div className=" h-scree text-white flex">
       <div
         className={` ${
           slideTrue ? "w-13" : "w-[380px]"
