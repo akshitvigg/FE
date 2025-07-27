@@ -32,10 +32,20 @@ function App() {
               Get Plus
             </button>
           </div>
-          <button>Msg</button>
+          <div>
+            <img className=" m-6" src="./messenger.png" width={20} alt="" />
+          </div>
+        </div>
+
+        <div className=" flex justify-center">
+          <div>
+            <p>where should we begin</p>
+            <div>
+              <input className=" bg-[#303030]" type="text" />
+            </div>
+          </div>
         </div>
       </div>
-      ;
     </div>
   );
 }
