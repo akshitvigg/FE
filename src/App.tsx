@@ -38,8 +38,8 @@ function App() {
         </div>
 
         <div className=" mt-54 flex justify-center">
-          <div>
-            <p>Where should we begin?</p>
+          <div className=" space-y-10">
+            <p className=" text-4xl">Where should we begin?</p>
             <div>
               <input className=" bg-[#303030]" type="text" />
             </div>
