@@ -37,9 +37,9 @@ function App() {
           </div>
         </div>
 
-        <div className=" flex justify-center">
+        <div className=" mt-54 flex justify-center">
           <div>
-            <p>where should we begin</p>
+            <p>Where should we begin?</p>
             <div>
               <input className=" bg-[#303030]" type="text" />
             </div>
