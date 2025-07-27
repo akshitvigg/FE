@@ -22,7 +22,18 @@ function App() {
         </div>
       </div>
       <div className={` w-full text-xl bg-[#212121]`}>
-        <div> </div>
+        <div className=" flex justify-between">
+          <p className="text-md p-4"> ChatGPT </p>
+          <div>
+            <p className=" mt-1 text-neutral-400 text-[16.5px] font-bold">
+              Saved memory full
+            </p>
+            <button className=" py-2 px-5 text-[#DCD8EC] rounded-3xl text-[18px] bg-[#373669]">
+              Get Plus
+            </button>
+          </div>
+          <button>Msg</button>
+        </div>
       </div>
       ;
     </div>
