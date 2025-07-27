@@ -40,8 +40,55 @@ function App() {
         <div className=" mt-54 flex justify-center">
           <div className=" space-y-10">
             <p className=" text-center text-4xl">Where should we begin?</p>
-            <div className=" flex justify-center">
-              <input className=" py-10 px-80 bg-[#303030]" type="text" />
+            <div className="rounded-4xl   w-[900px] h-30  bg-[#303030] ">
+              <div>
+                <input
+                  className=" mt-5 ml-5 placeholder-white outline-none text-white w-[800px] "
+                  type="text"
+                  placeholder="Ask anything"
+                />
+              </div>
+              <div className=" flex  justify-between">
+                <div className=" flex items-center mt-8 space-x-5 ml-5">
+                  <img className=" mb-1" src="./plus.png" width={18} alt="" />
+                  <span className=" flex space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      className="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"
+                      />
+                    </svg>
+                    <p className=" text-[17px]">Tools</p>
+                  </span>
+                </div>
+
+                <div className=" flex space-x-4 items-center  mt-4 mr-4 ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    className="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z"
+                    />
+                  </svg>
+
+                  <img src="./up-arrow.png" width={50} alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
