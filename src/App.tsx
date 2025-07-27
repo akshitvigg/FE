@@ -39,9 +39,9 @@ function App() {
 
         <div className=" mt-54 flex justify-center">
           <div className=" space-y-10">
-            <p className=" text-4xl">Where should we begin?</p>
-            <div>
-              <input className=" bg-[#303030]" type="text" />
+            <p className=" text-center text-4xl">Where should we begin?</p>
+            <div className=" flex justify-center">
+              <input className=" py-10 px-80 bg-[#303030]" type="text" />
             </div>
           </div>
         </div>
