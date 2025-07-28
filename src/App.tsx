@@ -96,6 +96,7 @@ function App() {
                   </span>
 
                   <img src="./up-arrow.png" width={50} alt="" />
+                  <img src=" ./up-arrow.png" width={40} alt="" />
                 </div>
               </div>
             </div>
