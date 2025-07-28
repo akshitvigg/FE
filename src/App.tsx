@@ -49,9 +49,16 @@ function App() {
                 />
               </div>
               <div className=" flex  justify-between">
-                <div className=" flex items-center mt-8 space-x-5 ml-5">
-                  <img className=" mb-1" src="./plus.png" width={18} alt="" />
-                  <span className=" flex space-x-2">
+                <div className=" flex items-center mt-6 space-x-5 ml-5">
+                  <div className=" hover:bg-[#464757]   py-2 px-2.5 rounded-full">
+                    <img
+                      className="  mb-1"
+                      src="./plus.png"
+                      width={18}
+                      alt=""
+                    />
+                  </div>
+                  <span className=" hover:bg-[#464757] px-3 py-2 rounded-3xl flex space-x-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -71,20 +78,22 @@ function App() {
                 </div>
 
                 <div className=" flex space-x-4 items-center  mt-4 mr-4 ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    className="size-6"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z"
-                    />
-                  </svg>
+                  <span className=" hover:bg-[#464757] px-2 py-2 rounded-3xl">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      className="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z"
+                      />
+                    </svg>
+                  </span>
 
                   <img src="./up-arrow.png" width={50} alt="" />
                 </div>
